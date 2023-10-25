@@ -2,10 +2,13 @@ import React from 'react'
 
 function Main() {
 
-
     return (
         <>
-            <div className="Logo font-bold text-2xl text-center relative">LEE JEONG SEOK</div>
+
+            <div className="Logo font-bold mt-10 text-2xl text-center relative">LEE JEONG SEOK</div>
+
+
+          
             <div className="flex mt-44">
                 <div className='h-96 w-full mx-auto' style={{
                     backgroundImage: `url(/assets/title_images.png)`,
@@ -15,9 +18,10 @@ function Main() {
                     height: "500px",
                     opacity: 0.7,
                 }}>
+                      <div className="w-full h-full backdrop-blur-[1.5]"></div>
                 </div>
                 <div className="absolute top-[40%] w-full ">
-                   <ul className="w-full">
+                   <ul className="w-full animate-pulse ">
                     <li className='backdrop-filter backdrop-blur-md backdrop-contrast-[1.1] w-40  h-40 flex flex-col justify-between absolute bottom-[90%] left-4 z-20 '>
                         <span className='block text-center font-bold text-xl mt-3'>About</span>
                         <p className='px-2'>Lorem ipsum dolor sit amet.</p>
